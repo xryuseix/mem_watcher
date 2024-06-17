@@ -49,7 +49,7 @@ function main() {
   setSignals();
 
   const p = new Deno.Command(args[0], {
-    args: Deno.args.slice(1),
+    args: args.slice(1),
     stdout: "piped",
     stderr: "piped",
   });

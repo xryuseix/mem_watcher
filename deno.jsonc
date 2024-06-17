@@ -1,5 +1,6 @@
 {
   "tasks": {
-    "run": "deno run --allow-run --allow-sys main.ts"
+    "run": "deno run --allow-run --allow-sys main.ts",
+    "compile": "deno compile --allow-run --allow-sys main.ts"
   }
 }
